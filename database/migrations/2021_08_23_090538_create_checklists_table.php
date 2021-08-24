@@ -15,7 +15,10 @@ class CreateChecklistsTable extends Migration
     {
         Schema::create('checklists', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('checklist_group_id')->constrained();
+            $table->string('name');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
