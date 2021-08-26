@@ -23,7 +23,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group">
                                         <label for="name">{{ _('Name') }}</label>
-                                        <input class="form-control" name="name" type="text" placeholder="{{ __('Enter checklist name') }}">
+                                        <input value="{{ old('name') }}" class="form-control" name="name" type="text" placeholder="{{ __('Enter checklist name') }}">
                                     </div>
                                 </div>
                             </div>
