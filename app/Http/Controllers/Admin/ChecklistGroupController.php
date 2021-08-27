@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreChecklistGroupRequest;
+use App\Http\Requests\UpdateChecklistGroupRequest;
 use App\Models\ChecklistGroup;
 
 class ChecklistGroupController extends Controller
@@ -49,7 +50,7 @@ class ChecklistGroupController extends Controller
      * @param ChecklistGroup $checklist_group
      * @return \Illuminate\Http\Response
      */
-    public function update(StoreChecklistGroupRequest $request, ChecklistGroup $checklist_group)
+    public function update(UpdateChecklistGroupRequest $request, ChecklistGroup $checklist_group)
     {
         $checklist_group->update($request->validated());
         return redirect()->route('home');
