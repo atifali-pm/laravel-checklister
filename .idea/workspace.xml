@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8822833-e1f7-4c3c-8a2f-c7ed17fc28c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/checklister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checklister.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Checklist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Checklist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/checklist_groups/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/checklist_groups/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/checklists/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/checklists/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/checklists/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/checklists/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/coreui/coreui" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
     </include_path>
   </component>
   <component name="ProjectId" id="1wyomI5pJR112ZiZqdY7ozv5OTx" />
