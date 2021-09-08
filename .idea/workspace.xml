@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8822833-e1f7-4c3c-8a2f-c7ed17fc28c6" name="Default Changelist" comment="" />
+    <list default="true" id="d8822833-e1f7-4c3c-8a2f-c7ed17fc28c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ChecklistGroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ChecklistGroupController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,6 +200,7 @@
       <workItem from="1629709438828" duration="1777000" />
       <workItem from="1629872267644" duration="2042000" />
       <workItem from="1629954970517" duration="4080000" />
+      <workItem from="1630069355889" duration="787000" />
     </task>
     <servers />
   </component>
