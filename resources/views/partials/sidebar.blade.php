@@ -61,6 +61,19 @@
                         {{ __('Users') }}</a>
                 </li>
         @endif
+        @foreach (\App\Models\ChecklistGroup::with('checklists')->get() as $group)
+            <li class="c-sidebar-nav-title"> {{ $group->name }} </li>
+            @foreach ($group->checklists as $checklist)
+                <li class="c-sidebar-nav-item">
+                    <a class="c-sidebar-nav-link"
+                       href="{{ route('user.checklists.show', [$checklist]) }}">
+                        <svg class="c-sidebar-nav-icon">
+                            <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-list') }}"></use>
+                        </svg>
+                        {{ $checklist->name }}</a>
+                </li>
+            @endforeach
+        @endforeach
     </ul>
     <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent"
             data-class="c-sidebar-minimized"></button>
