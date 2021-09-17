@@ -61,7 +61,7 @@
                         {{ __('Users') }}</a>
                 </li>
         @endif
-        @foreach (\App\Models\ChecklistGroup::with(['checklists' => function($query) { $query->whereNull('user_id'); }])->get() as $group)
+        @foreach ($user_menu as $group)
             <li class="c-sidebar-nav-title"> {{ $group->name }} </li>
             @foreach ($group->checklists as $checklist)
                 <li class="c-sidebar-nav-item">
