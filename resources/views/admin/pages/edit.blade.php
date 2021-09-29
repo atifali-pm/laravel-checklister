@@ -54,7 +54,9 @@
 @section('scripts')
     <script>
         ClassicEditor
-            .create( document.querySelector( '#page-editor' ) )
+            .create( document.querySelector( '#task-editor' ), {
+                extraPlugins: [ SimpleUploadAdapterPlugin ],
+            } )
             .catch( error => {
                 console.error( error );
             } );

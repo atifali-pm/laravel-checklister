@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d1403f9-25f1-4004-bcda-88940ef47977" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-checklister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-checklister.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/ChecklistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/ChecklistController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Checklist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Checklist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/checklists/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/checklists/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tasks/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tasks/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/checklists/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/checklists/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +150,14 @@
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/vendor/league/config" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-medialibrary" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
+      <path value="$PROJECT_DIR$/vendor/league/glide" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1xtIYLyozqXTDGJefGvFBcNtyN6" />
@@ -189,7 +200,8 @@
       <workItem from="1631168007724" duration="99000" />
       <workItem from="1631168114915" duration="4334000" />
       <workItem from="1631253770338" duration="2490000" />
-      <workItem from="1631688116287" duration="3023000" />
+      <workItem from="1631688116287" duration="3822000" />
+      <workItem from="1632897584672" duration="7169000" />
     </task>
     <servers />
   </component>
