@@ -16,7 +16,7 @@ class ImageController extends Controller
 
         return response()->json(
             [
-                'url' => $image->getUrl()
+                'url' => $image->getUrl('thumb')
             ]
         );
     }
