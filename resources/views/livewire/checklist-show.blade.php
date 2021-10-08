@@ -6,9 +6,13 @@
             </div>
             <div class="card-body">
                 <table class="table">
-                    @foreach($checklist->tasks as $task)
+                    @foreach($checklist->tasks->where('user_id', NULL) as $task)
                         <tr>
-                            <td></td>
+                            <td>
+                                <input type="radio" wire:click="complete_task({{ $task->id }})"
+                                       @if (in_array($task->id, $completed_tasks)) checked="checked" @endif
+                                />
+                            </td>
                             <td wire:click="toggle_task({{$task->id}})">{{ $task->name }}</td>
                             <td wire:click="toggle_task({{$task->id}})" >
                                 @if(in_array($task->id, $opened_tasks))

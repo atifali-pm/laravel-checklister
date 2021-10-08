@@ -76,7 +76,6 @@
 <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/classic/ckeditor.js"></script>
 @include('admin.ckeditor')
 @livewireScripts
-<script src="https://cdn.jsdelivr.net/gh/livewire/sortable@v0.x.x/dist/livewire-sortable.js"></script>
 @yield('scripts')
 </body>
 </html>
