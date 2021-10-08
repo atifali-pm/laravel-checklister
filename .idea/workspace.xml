@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="322bec0b-c518-4320-9ae2-49869bf7ffac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_08_102436_add_users_fields_to_tasks_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-checklister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-checklister.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ChecklistShow.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ChecklistShow.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/TasksTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/TasksTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/checklist-show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/checklist-show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/tasks-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/tasks-table.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633600429613</updated>
       <workItem from="1633600431640" duration="599000" />
-      <workItem from="1633687850377" duration="4958000" />
+      <workItem from="1633687850377" duration="6060000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ class TasksTable extends Component
     {
         $task = Task::find($task_id);
         if($task) {
-            Task::whereNull('user_id', NULL)->where('position', $task->position - 1)->update(
+            Task::whereNull('user_id')->where('position', $task->position - 1)->update(
                 [
                     'position' => $task->position
                 ]
@@ -33,7 +33,7 @@ class TasksTable extends Component
     {
         $task = Task::find($task_id);
         if($task) {
-            Task::whereNull('user_id', NULL)->where('position', $task->position + 1)->update(
+            Task::whereNull('user_id')->where('position', $task->position + 1)->update(
                 [
                     'position' => $task->position
                 ]
