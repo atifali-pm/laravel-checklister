@@ -39,18 +39,20 @@ class ChecklistShow extends Component
         $task = Task::find($task_id);
         if($task) {
             $user_task = Task::where('task_id', $task_id)->first();
-            if($user_task) {
-                if(is_null($user_task->completed_at)) {
+            if ($user_task) {
+                if (is_null($user_task->completed_at)) {
                     $user_task->update(['completed_at' => now()]);
                 }
-            }
-        } else {
-            $user_task =  $task->replicate();
-            $user_task['completed_at'] = now();
-            $user_task['task_id'] = $task_id;
-            $user_task['user_id'] = auth()->id();
-            $user_task->save();
+            } else {
+                $user_task                 = $task->replicate();
+                $user_task['completed_at'] = now();
+                $user_task['task_id']      = $task_id;
+                $user_task['user_id']      = auth()->id();
+                $user_task->save();
 
+            }
+
+            $this->emit('task_complete', $task_id, $task->checklist_id);
         }
 
     }
